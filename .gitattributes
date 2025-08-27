@@ -1,0 +1,14 @@
+# Templates/**    filter=git-crypt diff=git-crypt
+# Keys/**        	filter=git-crypt diff=git-crypt
+*.bat        	filter=git-crypt diff=git-crypt
+*.yml        	filter=git-crypt diff=git-crypt
+*.py        	filter=git-crypt diff=git-crypt
+
+# 不需要加密的檔案且要放在檔案最後，表示有較高的優先權
+.gitignore      !filter !diff
+.gitattributes  !filter !diff
+./ReadMe.txt    !filter !diff
+
+# 💢避免檔案格式被轉換
+# 因為 ˙*.env與*.sh在Linux環境下必須是 LF 換行符號
+* -text

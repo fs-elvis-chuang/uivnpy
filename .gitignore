@@ -206,6 +206,14 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# 開發虛擬環境
+# 開發用虛擬環境
 my_env_miniconda3/
+examples/alpha_research
+examples/client_server
+examples/data_recorder
+examples/download_bars
+examples/notebook_trading
+examples/portfolio_backtesting
+examples/simple_backtesting
+vnpy/alpha
 

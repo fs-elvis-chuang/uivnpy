@@ -216,4 +216,5 @@ examples/notebook_trading
 examples/portfolio_backtesting
 examples/simple_backtesting
 vnpy/alpha
+vt_setting.json
 

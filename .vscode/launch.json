@@ -25,6 +25,14 @@
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Linux Debuging: main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/elvis/projects/09-01-0015/uivnpy/my_env_miniconda3/bin/python"
         }
     ]
 }

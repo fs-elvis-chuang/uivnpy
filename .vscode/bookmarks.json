@@ -1,0 +1,39 @@
+{
+	"files": [
+		{
+			"path": "main.py",
+			"bookmarks": [
+				{
+					"line": 3,
+					"column": 0,
+					"label": "測試"
+				},
+				{
+					"line": 47,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "vnpy/trader/logger.py",
+			"bookmarks": [
+				{
+					"line": 48,
+					"column": 8,
+					"label": "日誌"
+				}
+			]
+		},
+		{
+			"path": ".vntrader/readme.txt",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 5,
+					"label": ""
+				}
+			]
+		}
+	]
+}

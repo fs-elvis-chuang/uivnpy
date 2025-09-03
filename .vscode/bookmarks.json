@@ -4,24 +4,9 @@
 			"path": "main.py",
 			"bookmarks": [
 				{
-					"line": 3,
-					"column": 0,
-					"label": "測試"
-				},
-				{
-					"line": 47,
+					"line": 52,
 					"column": 0,
 					"label": ""
-				}
-			]
-		},
-		{
-			"path": "vnpy/trader/logger.py",
-			"bookmarks": [
-				{
-					"line": 48,
-					"column": 8,
-					"label": "日誌"
 				}
 			]
 		},
@@ -32,6 +17,26 @@
 					"line": 0,
 					"column": 5,
 					"label": ""
+				}
+			]
+		},
+		{
+			"path": "examples/no_ui/run.py",
+			"bookmarks": [
+				{
+					"line": 61,
+					"column": 3,
+					"label": "No UI 範例"
+				}
+			]
+		},
+		{
+			"path": "vnpy/event/engine.py",
+			"bookmarks": [
+				{
+					"line": 65,
+					"column": 0,
+					"label": "Event 接收中心，接收所有Event"
 				}
 			]
 		}

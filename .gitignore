@@ -216,5 +216,9 @@ examples/notebook_trading
 examples/portfolio_backtesting
 examples/simple_backtesting
 vnpy/alpha
+
+# Sinopac 相關設定
+Sinopac.pfx
+sinopac_gateway.json
 vt_setting.json
 

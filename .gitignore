@@ -219,6 +219,6 @@ vnpy/alpha
 
 # Sinopac 相關設定
 Sinopac.pfx
-sinopac_gateway.json
+sinopac_setting.json
 vt_setting.json
 

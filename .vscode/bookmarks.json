@@ -39,6 +39,16 @@
 					"label": "Event 接收中心，接收所有Event"
 				}
 			]
+		},
+		{
+			"path": "vnpy_sinopac/apikey_testing.py",
+			"bookmarks": [
+				{
+					"line": 173,
+					"column": 0,
+					"label": "TODO: 憑證過期時間驗證"
+				}
+			]
 		}
 	]
 }

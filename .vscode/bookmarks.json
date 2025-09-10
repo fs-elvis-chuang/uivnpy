@@ -44,9 +44,9 @@
 			"path": "vnpy_sinopac/apikey_testing.py",
 			"bookmarks": [
 				{
-					"line": 173,
+					"line": 187,
 					"column": 0,
-					"label": "TODO: 憑證過期時間驗證"
+					"label": "完成：憑證過期時間驗證"
 				}
 			]
 		}

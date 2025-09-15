@@ -27,6 +27,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "Python Debuging: margins.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "margins.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Linux Debuging: main.py",
             "type": "debugpy",
             "request": "launch",

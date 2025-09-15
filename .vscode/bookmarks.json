@@ -44,7 +44,7 @@
 			"path": "vnpy_sinopac/apikey_testing.py",
 			"bookmarks": [
 				{
-					"line": 187,
+					"line": 189,
 					"column": 0,
 					"label": "完成：憑證過期時間驗證"
 				}
@@ -54,7 +54,7 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 148,
+					"line": 150,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}

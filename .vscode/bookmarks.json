@@ -54,9 +54,19 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 150,
+					"line": 151,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
+				}
+			]
+		},
+		{
+			"path": "vnpy_sinopac/sinopack_login.py",
+			"bookmarks": [
+				{
+					"line": 763,
+					"column": 0,
+					"label": "TODO: 海外期貨 保證金 與 商品 size待確認"
 				}
 			]
 		}

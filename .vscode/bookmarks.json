@@ -41,32 +41,12 @@
 			]
 		},
 		{
-			"path": "vnpy_sinopac/apikey_testing.py",
-			"bookmarks": [
-				{
-					"line": 189,
-					"column": 0,
-					"label": "完成：憑證過期時間驗證"
-				}
-			]
-		},
-		{
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 151,
+					"line": 153,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
-				}
-			]
-		},
-		{
-			"path": "vnpy_sinopac/sinopack_login.py",
-			"bookmarks": [
-				{
-					"line": 763,
-					"column": 0,
-					"label": "TODO: 海外期貨 保證金 與 商品 size待確認"
 				}
 			]
 		}

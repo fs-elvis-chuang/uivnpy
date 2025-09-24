@@ -44,9 +44,29 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 184,
+					"line": 185,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
+				}
+			]
+		},
+		{
+			"path": "vnpy_sinopac/sinopac_tickbidask.py",
+			"bookmarks": [
+				{
+					"line": 20,
+					"column": 0,
+					"label": "TODO: 零股成交明細 尚未確認"
+				}
+			]
+		},
+		{
+			"path": "vnpy/trader/ui/widget.py",
+			"bookmarks": [
+				{
+					"line": 1109,
+					"column": 0,
+					"label": "TODO: UI Send_Order()"
 				}
 			]
 		}

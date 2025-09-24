@@ -1,10 +1,12 @@
 # Templates/**    filter=git-crypt diff=git-crypt
 # Keys/**        	filter=git-crypt diff=git-crypt
-*.bat        	filter=git-crypt diff=git-crypt
-*.yml        	filter=git-crypt diff=git-crypt
-*.py        	filter=git-crypt diff=git-crypt
-my_env.env      filter=git-crypt diff=git-crypt
-*.sh        	filter=git-crypt diff=git-crypt
+*.bat        	        filter=git-crypt diff=git-crypt
+*.yml        	        filter=git-crypt diff=git-crypt
+*.py        	        filter=git-crypt diff=git-crypt
+my_env.env              filter=git-crypt diff=git-crypt
+*.sh        	        filter=git-crypt diff=git-crypt
+vt_setting.json	        filter=git-crypt diff=git-crypt
+connect_sinopac.json	filter=git-crypt diff=git-crypt
 
 # 不需要加密的檔案且要放在檔案最後，表示有較高的優先權
 .gitignore      !filter !diff

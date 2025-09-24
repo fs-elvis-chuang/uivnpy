@@ -221,4 +221,6 @@ vnpy/alpha
 Sinopac.pfx
 sinopac_setting.json
 vt_setting.json
+.vntrader/contracts/
+.vntrader/*.csv
 

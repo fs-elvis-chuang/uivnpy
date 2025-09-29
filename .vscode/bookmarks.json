@@ -44,7 +44,7 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 188,
+					"line": 213,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}
@@ -54,7 +54,7 @@
 			"path": "vnpy_sinopac/sinopac_tickbidask.py",
 			"bookmarks": [
 				{
-					"line": 20,
+					"line": 21,
 					"column": 0,
 					"label": "TODO: 零股成交明細 尚未確認"
 				}
@@ -64,9 +64,59 @@
 			"path": "vnpy/trader/ui/widget.py",
 			"bookmarks": [
 				{
-					"line": 1110,
+					"line": 1113,
 					"column": 0,
 					"label": "TODO: UI Send_Order()"
+				}
+			]
+		},
+		{
+			"path": "vnpy_sinopac/sinopac_orderstrades.py",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 0,
+					"label": "TODO: 組合單 委託"
+				}
+			]
+		},
+		{
+			"path": "my_env_miniconda3/Lib/site-packages/shioaji/shioaji.py",
+			"bookmarks": [
+				{
+					"line": 158,
+					"column": 0,
+					"label": "class Shioaji"
+				}
+			]
+		},
+		{
+			"path": "vnpy/trader/engine.py",
+			"bookmarks": [
+				{
+					"line": 235,
+					"column": 0,
+					"label": "TODO: 檢查 處置、注意"
+				},
+				{
+					"line": 335,
+					"column": 0,
+					"label": "TODO: 處置、注意"
+				},
+				{
+					"line": 356,
+					"column": 0,
+					"label": "TODO: 檢查資金"
+				}
+			]
+		},
+		{
+			"path": "vnpy_sinopac/sinopac_login.py",
+			"bookmarks": [
+				{
+					"line": 820,
+					"column": 0,
+					"label": "TODO: 下載 處置、注意股"
 				}
 			]
 		}

@@ -44,7 +44,12 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 220,
+					"line": 160,
+					"column": 0,
+					"label": "TODO: 登出前 刪除委託"
+				},
+				{
+					"line": 222,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}
@@ -77,6 +82,11 @@
 					"line": 0,
 					"column": 0,
 					"label": "TODO: 組合單 委託"
+				},
+				{
+					"line": 388,
+					"column": 0,
+					"label": "TODO: 在模擬模式下，收到時間 與 交易所回報 相差過大。"
 				}
 			]
 		},
@@ -114,7 +124,7 @@
 			"path": "vnpy_sinopac/sinopac_login.py",
 			"bookmarks": [
 				{
-					"line": 828,
+					"line": 836,
 					"column": 0,
 					"label": "TODO: 下載 處置、注意股"
 				}

@@ -74,7 +74,7 @@
 			"path": "vnpy/trader/ui/widget.py",
 			"bookmarks": [
 				{
-					"line": 1117,
+					"line": 1150,
 					"column": 0,
 					"label": "TODO: UI Send_Order()"
 				}
@@ -87,11 +87,6 @@
 					"line": 0,
 					"column": 0,
 					"label": "TODO: 組合單 委託"
-				},
-				{
-					"line": 388,
-					"column": 0,
-					"label": "TODO: 在模擬模式下，收到時間 與 交易所回報 相差過大。"
 				}
 			]
 		},
@@ -109,17 +104,17 @@
 			"path": "vnpy/trader/engine.py",
 			"bookmarks": [
 				{
-					"line": 236,
+					"line": 237,
 					"column": 0,
 					"label": "TODO: 檢查 處置、注意"
 				},
 				{
-					"line": 336,
+					"line": 348,
 					"column": 0,
 					"label": "TODO: 處置、注意"
 				},
 				{
-					"line": 357,
+					"line": 375,
 					"column": 0,
 					"label": "TODO: 檢查資金"
 				}

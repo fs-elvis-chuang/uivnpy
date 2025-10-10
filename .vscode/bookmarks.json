@@ -44,12 +44,12 @@
 			"path": "vnpy_sinopac/sinopac_gateway.py",
 			"bookmarks": [
 				{
-					"line": 169,
+					"line": 171,
 					"column": 0,
 					"label": "TODO: 登出前 刪除委託"
 				},
 				{
-					"line": 231,
+					"line": 233,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}
@@ -74,7 +74,7 @@
 			"path": "vnpy/trader/ui/widget.py",
 			"bookmarks": [
 				{
-					"line": 1150,
+					"line": 1166,
 					"column": 0,
 					"label": "TODO: UI Send_Order()"
 				}

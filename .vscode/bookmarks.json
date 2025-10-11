@@ -49,7 +49,7 @@
 					"label": "TODO: 登出前 刪除委託"
 				},
 				{
-					"line": 242,
+					"line": 233,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}
@@ -104,17 +104,17 @@
 			"path": "vnpy/trader/engine.py",
 			"bookmarks": [
 				{
-					"line": 237,
+					"line": 245,
 					"column": 0,
 					"label": "TODO: 檢查 處置、注意"
 				},
 				{
-					"line": 348,
+					"line": 356,
 					"column": 0,
 					"label": "TODO: 處置、注意"
 				},
 				{
-					"line": 375,
+					"line": 383,
 					"column": 0,
 					"label": "TODO: 檢查資金"
 				}

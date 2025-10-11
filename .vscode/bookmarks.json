@@ -49,7 +49,7 @@
 					"label": "TODO: 登出前 刪除委託"
 				},
 				{
-					"line": 233,
+					"line": 242,
 					"column": 0,
 					"label": "TODO: Gateway必要函式完成該書籤才會移除"
 				}
@@ -124,7 +124,7 @@
 			"path": "vnpy_sinopac/sinopac_login.py",
 			"bookmarks": [
 				{
-					"line": 879,
+					"line": 884,
 					"column": 0,
 					"label": "TODO: 下載 處置、注意股"
 				}

@@ -129,6 +129,16 @@
 					"label": "TODO: 下載 處置、注意股"
 				}
 			]
+		},
+		{
+			"path": "vnpy_mysql/mysql_database.py",
+			"bookmarks": [
+				{
+					"line": 141,
+					"column": 0,
+					"label": "TODO: 當時間相同時 因為複寫導致資料筆數不同"
+				}
+			]
 		}
 	]
 }

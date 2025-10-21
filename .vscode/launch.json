@@ -17,6 +17,12 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                // 將 vnpy 原始碼的父目錄添加到 PYTHONPATH
+                // 因為 vnpy 在 ${workspaceFolder} 下，所以我們將 ${workspaceFolder} 加入
+                "PYTHONPATH": "${workspaceFolder}"
+            },
             "console": "integratedTerminal"
         },
         {

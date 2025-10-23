@@ -1,0 +1,7 @@
+1. 開啟一個powershell並確定是在正確的 虛擬環境之中且是在Project根目錄。
+2. 建立目錄zh_TW\LC_MESSAGES
+3. 執行 .\vnpy\trader\locale\generate_pot.bat 產生一個vnpy.pot，這是一個空字串待翻譯的樣板 
+3. zh_TW\LC_MESSAGES目錄下複製該pot檔案並修改副檔名為.po
+4. 針對該.po檔案進行翻譯
+5. 執行 generate_mo.bat 產生一個vnpy.mo【編譯過的翻譯檔案】
+6. 確認 __init__.py中的會載入該 mo檔案。

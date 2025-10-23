@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-10-23 18:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: vnpy_ctastrategy\__init__.py:64 vnpy_ctastrategy\ui\widget.py:45
+msgid "CTA策略"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:164
+msgid "开始加载历史数据"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:170
+msgid "起始日期必须小于结束日期"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:187
+msgid "加载进度：{} [{:.0%}]"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:215
+msgid "历史数据加载完成，数据量：{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:226
+msgid "策略初始化完成"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:230
+msgid "开始回放历史数据"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:241
+msgid "触发异常，回测终止"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:247
+msgid "回放进度：{} [{:.0%}]"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:250
+msgid "历史数据回放结束"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:254
+msgid "开始计算逐日盯市盈亏"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:257
+msgid "回测成交记录为空"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:291
+msgid "逐日盯市盈亏计算完成"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:300
+msgid "开始计算策略统计指标"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:305
+msgid "回测结果为空，无法计算绩效统计指标"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:359
+msgid "回测中出现爆仓（资金小于等于0），无法计算策略统计指标"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:422
+msgid "首个交易日：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:423
+msgid "最后交易日：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:425
+msgid "总交易日：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:426
+msgid "盈利交易日：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:427
+msgid "亏损交易日：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:429
+msgid "起始资金：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:430
+msgid "结束资金：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:432
+msgid "总收益率：\t{:,.2f}%"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:433
+msgid "年化收益：\t{:,.2f}%"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:434
+msgid "最大回撤: \t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:435
+msgid "百分比最大回撤: {:,.2f}%"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:436
+msgid "最大回撤天数: \t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:438
+msgid "总盈亏：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:439
+msgid "总手续费：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:440
+msgid "总滑点：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:441
+msgid "总成交金额：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:442
+msgid "总成交笔数：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:444
+msgid "日均盈亏：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:445
+msgid "日均手续费：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:446
+msgid "日均滑点：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:447
+msgid "日均成交金额：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:448
+msgid "日均成交笔数：\t{}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:450
+msgid "日均收益率：\t{:,.2f}%"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:451
+msgid "收益标准差：\t{:,.2f}%"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:454
+msgid "收益回撤比：\t{:,.2f}"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:492
+msgid "策略统计指标计算完成"
+msgstr ""
+
+#: vnpy_ctastrategy\backtesting.py:559 vnpy_ctastrategy\backtesting.py:601
+msgid "参数：{}, 目标：{}"
+msgstr ""
+
+#: vnpy_ctastrategy\base.py:17
+msgid "等待中"
+msgstr ""
+
+#: vnpy_ctastrategy\base.py:18
+msgid "已撤销"
+msgstr ""
+
+#: vnpy_ctastrategy\base.py:19
+msgid "已触发"
+msgstr ""
+
+#: vnpy_ctastrategy\base.py:23
+msgid "实盘"
+msgstr ""
+
+#: vnpy_ctastrategy\base.py:24
+msgid "回测"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:108
+msgid "CTA策略引擎初始化成功"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:129
+msgid "数据服务初始化成功"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:436
+msgid "撤单失败，找不到委托{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:479
+msgid "委托失败，找不到合约：{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:624
+msgid ""
+"触发异常已停止\n"
+"{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:634
+msgid "创建策略失败，存在重名{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:639
+msgid "创建策略失败，找不到策略类{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:643
+msgid "创建策略失败，本地代码缺失交易所后缀"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:648
+msgid "创建策略失败，本地代码的交易所后缀不正确"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:676
+msgid "{}已经完成初始化，禁止重复操作"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:679
+msgid "{}开始执行初始化"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:699
+msgid "行情订阅失败，找不到合约{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:704
+msgid "{}初始化完成"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:712
+msgid "策略{}启动失败，请先初始化"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:716
+msgid "{}已经启动，请勿重复操作"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:763
+msgid "策略{}移除失败，请先停止"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:785
+msgid "策略{}移除成功"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:828
+msgid ""
+"策略文件{}加载失败，触发异常：\n"
+"{}"
+msgstr ""
+
+#: vnpy_ctastrategy\engine.py:966
+msgid "CTA策略引擎"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:36 vnpy_ctastrategy\ui\widget.py:65
+msgid "移仓助手"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:59
+msgid "移仓"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:64
+msgid "移仓合约"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:65
+msgid "目标合约"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:66
+msgid "委托超价"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:67
+msgid "单笔上限"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:100
+msgid "无法获取目标合约{}的盘口数据，请先订阅行情"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:109
+msgid "策略{}尚未初始化，无法执行移仓"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:113
+msgid "策略{}正在运行中，无法执行移仓"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:187
+msgid "移除老策略{}[{}]"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:196
+msgid "创建策略{}[{}]"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:200
+msgid "初始化策略{}[{}]"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:206
+msgid "更新策略仓位{}[{}]"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\rollover.py:262
+msgid "发出委托{}，{} {}，{}@{}"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:50
+msgid "添加策略"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:53
+msgid "全部初始化"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:56
+msgid "全部启动"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:59
+msgid "全部停止"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:62
+msgid "清空日志"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:86
+msgid "查找"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:225
+msgid "初始化"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:228
+msgid "启动"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:232
+msgid "停止"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:236
+msgid "编辑"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:239
+msgid "移除"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:384
+msgid "停止委托号"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:388
+msgid "限价委托号"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:389
+msgid "本地代码"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:390
+msgid "方向"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:391
+msgid "开平"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:392
+msgid "价格"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:393
+msgid "数量"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:394
+msgid "状态"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:395 vnpy_ctastrategy\ui\widget.py:416
+msgid "时间"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:396
+msgid "锁仓"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:397
+msgid "净仓"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:398
+msgid "策略名"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:417
+msgid "信息"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:463
+msgid "添加策略：{}"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:464
+msgid "添加"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:468
+msgid "参数编辑：{}"
+msgstr ""
+
+#: vnpy_ctastrategy\ui\widget.py:469
+msgid "确定"
+msgstr ""
+

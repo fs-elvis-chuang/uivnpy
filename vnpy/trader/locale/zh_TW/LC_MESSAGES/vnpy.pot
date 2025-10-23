@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-31 06:16+0800\n"
+"POT-Creation-Date: 2025-10-23 18:02+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,111 +27,171 @@ msgstr ""
 msgid "净"
 msgstr ""
 
-#: vnpy\trader\constant.py:24
+#: vnpy\trader\constant.py:23
 msgid "开"
 msgstr ""
 
-#: vnpy\trader\constant.py:25
+#: vnpy\trader\constant.py:24
 msgid "平"
 msgstr ""
 
-#: vnpy\trader\constant.py:26
+#: vnpy\trader\constant.py:25
 msgid "平今"
 msgstr ""
 
-#: vnpy\trader\constant.py:27
+#: vnpy\trader\constant.py:26
 msgid "平昨"
 msgstr ""
 
 #: vnpy\trader\constant.py:34
-msgid "提交中"
+msgid "期貨"
 msgstr ""
 
 #: vnpy\trader\constant.py:35
-msgid "未成交"
-msgstr ""
-
-#: vnpy\trader\constant.py:36
-msgid "部分成交"
-msgstr ""
-
-#: vnpy\trader\constant.py:37
-msgid "全部成交"
+msgid "選擇權"
 msgstr ""
 
 #: vnpy\trader\constant.py:38
-msgid "已撤销"
+msgid "現股"
 msgstr ""
 
 #: vnpy\trader\constant.py:39
-msgid "拒单"
+msgid "融資"
 msgstr ""
 
-#: vnpy\trader\constant.py:46
-msgid "股票"
-msgstr ""
-
-#: vnpy\trader\constant.py:47
-msgid "期货"
-msgstr ""
-
-#: vnpy\trader\constant.py:48
-msgid "期权"
+#: vnpy\trader\constant.py:40
+msgid "融券"
 msgstr ""
 
 #: vnpy\trader\constant.py:49
-msgid "指数"
+msgid "提交中"
 msgstr ""
 
 #: vnpy\trader\constant.py:50
-msgid "外汇"
+msgid "未成交"
 msgstr ""
 
 #: vnpy\trader\constant.py:51
-msgid "现货"
+msgid "部分成交"
+msgstr ""
+
+#: vnpy\trader\constant.py:52
+msgid "全部成交"
 msgstr ""
 
 #: vnpy\trader\constant.py:53
-msgid "债券"
+msgid "已撤销"
 msgstr ""
 
 #: vnpy\trader\constant.py:54
-msgid "权证"
+msgid "拒单"
 msgstr ""
 
-#: vnpy\trader\constant.py:55
-msgid "价差"
+#: vnpy\trader\constant.py:61
+msgid "股票"
 msgstr ""
 
-#: vnpy\trader\constant.py:56
-msgid "基金"
+#: vnpy\trader\constant.py:62
+msgid "期货"
 msgstr ""
 
-#: vnpy\trader\constant.py:58
-msgid "互换"
+#: vnpy\trader\constant.py:63
+msgid "期权"
+msgstr ""
+
+#: vnpy\trader\constant.py:64
+msgid "指数"
 msgstr ""
 
 #: vnpy\trader\constant.py:65
-msgid "限价"
+msgid "外汇"
 msgstr ""
 
 #: vnpy\trader\constant.py:66
-msgid "市价"
+msgid "现货"
+msgstr ""
+
+#: vnpy\trader\constant.py:68
+msgid "债券"
+msgstr ""
+
+#: vnpy\trader\constant.py:69
+msgid "权证"
 msgstr ""
 
 #: vnpy\trader\constant.py:70
+msgid "价差"
+msgstr ""
+
+#: vnpy\trader\constant.py:71
+msgid "基金"
+msgstr ""
+
+#: vnpy\trader\constant.py:73
+msgid "互换"
+msgstr ""
+
+#: vnpy\trader\constant.py:80
+msgid "限价"
+msgstr ""
+
+#: vnpy\trader\constant.py:81
+msgid "市价"
+msgstr ""
+
+#: vnpy\trader\constant.py:85
 msgid "询价"
 msgstr ""
 
-#: vnpy\trader\constant.py:78
+#: vnpy\trader\constant.py:89 vnpy\trader\constant.py:98
+msgid "限價ROD"
+msgstr ""
+
+#: vnpy\trader\constant.py:90 vnpy\trader\constant.py:99
+msgid "限價IOC"
+msgstr ""
+
+#: vnpy\trader\constant.py:91 vnpy\trader\constant.py:100
+msgid "限價FOK"
+msgstr ""
+
+#: vnpy\trader\constant.py:92 vnpy\trader\constant.py:101
+msgid "限價STOP"
+msgstr ""
+
+#: vnpy\trader\constant.py:93
+msgid "市價IOC"
+msgstr ""
+
+#: vnpy\trader\constant.py:94
+msgid "市價FOK"
+msgstr ""
+
+#: vnpy\trader\constant.py:95
+msgid "市價STOP"
+msgstr ""
+
+#: vnpy\trader\constant.py:102
+msgid "範圍市價IOC"
+msgstr ""
+
+#: vnpy\trader\constant.py:103
+msgid "範圍市價FOK"
+msgstr ""
+
+#: vnpy\trader\constant.py:104
+msgid "範圍市價STOP"
+msgstr ""
+
+#: vnpy\trader\constant.py:111
 msgid "看涨期权"
 msgstr ""
 
-#: vnpy\trader\constant.py:79
+#: vnpy\trader\constant.py:112
 msgid "看跌期权"
 msgstr ""
 
-#: vnpy\trader\database.py:154
+#: vnpy\trader\database.py:153
 msgid "找不到数据库驱动{}，使用默认的SQLite数据库"
 msgstr ""
 
@@ -151,15 +211,15 @@ msgstr ""
 msgid "无法加载数据服务模块，请运行 pip install {} 尝试安装"
 msgstr ""
 
-#: vnpy\trader\engine.py:174
+#: vnpy\trader\engine.py:187
 msgid "找不到底层接口：{}"
 msgstr ""
 
-#: vnpy\trader\engine.py:183
+#: vnpy\trader\engine.py:196
 msgid "找不到引擎：{}"
 msgstr ""
 
-#: vnpy\trader\engine.py:603
+#: vnpy\trader\engine.py:792
 msgid "邮件发送失败: {}"
 msgstr ""
 
@@ -243,7 +303,7 @@ msgstr ""
 msgid "行情"
 msgstr ""
 
-#: vnpy\trader\ui\mainwindow.py:75 vnpy\trader\ui\widget.py:753
+#: vnpy\trader\ui\mainwindow.py:75 vnpy\trader\ui\widget.py:798
 msgid "委托"
 msgstr ""
 
@@ -271,7 +331,7 @@ msgstr ""
 msgid "系统"
 msgstr ""
 
-#: vnpy\trader\ui\mainwindow.py:113 vnpy\trader\ui\widget.py:618
+#: vnpy\trader\ui\mainwindow.py:113 vnpy\trader\ui\widget.py:646
 msgid "连接{}"
 msgstr ""
 
@@ -343,22 +403,20 @@ msgstr ""
 msgid "保存数据"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:417 vnpy\trader\ui\widget.py:462
-#: vnpy\trader\ui\widget.py:485 vnpy\trader\ui\widget.py:526
-#: vnpy\trader\ui\widget.py:568 vnpy\trader\ui\widget.py:761
-#: vnpy\trader\ui\widget.py:1081
+#: vnpy\trader\ui\widget.py:417 vnpy\trader\ui\widget.py:464
+#: vnpy\trader\ui\widget.py:489 vnpy\trader\ui\widget.py:536
+#: vnpy\trader\ui\widget.py:596 vnpy\trader\ui\widget.py:808
+#: vnpy\trader\ui\widget.py:1317
 msgid "代码"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:418 vnpy\trader\ui\widget.py:463
-#: vnpy\trader\ui\widget.py:486 vnpy\trader\ui\widget.py:527
-#: vnpy\trader\ui\widget.py:569 vnpy\trader\ui\widget.py:760
-#: vnpy\trader\ui\widget.py:1082
+#: vnpy\trader\ui\widget.py:418 vnpy\trader\ui\widget.py:597
+#: vnpy\trader\ui\widget.py:807 vnpy\trader\ui\widget.py:1318
 msgid "交易所"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:419 vnpy\trader\ui\widget.py:762
-#: vnpy\trader\ui\widget.py:1083
+#: vnpy\trader\ui\widget.py:419 vnpy\trader\ui\widget.py:809
+#: vnpy\trader\ui\widget.py:1319
 msgid "名称"
 msgstr ""
 
@@ -367,263 +425,345 @@ msgid "最新价"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:421
-msgid "成交量"
+msgid "漲跌幅%"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:422
-msgid "开盘价"
+msgid "價格差"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:423
-msgid "最高价"
+msgid "成交量"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:424
-msgid "最低价"
+msgid "开盘价"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:425
-msgid "买1价"
+msgid "最高价"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:426
-msgid "买1量"
+msgid "最低价"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:427
-msgid "卖1价"
+msgid "买1价"
 msgstr ""
 
 #: vnpy\trader\ui\widget.py:428
+msgid "买1量"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:429
+msgid "卖1价"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:430
 msgid "卖1量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:429 vnpy\trader\ui\widget.py:444
-#: vnpy\trader\ui\widget.py:468 vnpy\trader\ui\widget.py:494
-#: vnpy\trader\ui\widget.py:577
+#: vnpy\trader\ui\widget.py:431 vnpy\trader\ui\widget.py:446
+#: vnpy\trader\ui\widget.py:472 vnpy\trader\ui\widget.py:503
+#: vnpy\trader\ui\widget.py:605
 msgid "时间"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:430 vnpy\trader\ui\widget.py:446
-#: vnpy\trader\ui\widget.py:469 vnpy\trader\ui\widget.py:495
-#: vnpy\trader\ui\widget.py:534 vnpy\trader\ui\widget.py:552
-#: vnpy\trader\ui\widget.py:578 vnpy\trader\ui\widget.py:768
+#: vnpy\trader\ui\widget.py:432 vnpy\trader\ui\widget.py:448
+#: vnpy\trader\ui\widget.py:473 vnpy\trader\ui\widget.py:504
+#: vnpy\trader\ui\widget.py:547 vnpy\trader\ui\widget.py:580
+#: vnpy\trader\ui\widget.py:606 vnpy\trader\ui\widget.py:816
 msgid "接口"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:445
+#: vnpy\trader\ui\widget.py:447
 msgid "信息"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:460
+#: vnpy\trader\ui\widget.py:462
 msgid "成交号"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:461 vnpy\trader\ui\widget.py:483
+#: vnpy\trader\ui\widget.py:463 vnpy\trader\ui\widget.py:487
 msgid "委托号"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:464 vnpy\trader\ui\widget.py:488
-#: vnpy\trader\ui\widget.py:528 vnpy\trader\ui\widget.py:763
+#: vnpy\trader\ui\widget.py:466 vnpy\trader\ui\widget.py:538
+msgid "名稱"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:467 vnpy\trader\ui\widget.py:492
+#: vnpy\trader\ui\widget.py:539 vnpy\trader\ui\widget.py:810
 msgid "方向"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:465 vnpy\trader\ui\widget.py:489
-#: vnpy\trader\ui\widget.py:764
+#: vnpy\trader\ui\widget.py:468 vnpy\trader\ui\widget.py:493
+#: vnpy\trader\ui\widget.py:811
 msgid "开平"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:466 vnpy\trader\ui\widget.py:490
-#: vnpy\trader\ui\widget.py:766
+#: vnpy\trader\ui\widget.py:469 vnpy\trader\ui\widget.py:494
+#: vnpy\trader\ui\widget.py:541 vnpy\trader\ui\widget.py:812
+msgid "標的"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:470 vnpy\trader\ui\widget.py:496
+#: vnpy\trader\ui\widget.py:814
 msgid "价格"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:467 vnpy\trader\ui\widget.py:529
-#: vnpy\trader\ui\widget.py:767
+#: vnpy\trader\ui\widget.py:471 vnpy\trader\ui\widget.py:542
+#: vnpy\trader\ui\widget.py:815
 msgid "数量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:484 vnpy\trader\ui\widget.py:567
+#: vnpy\trader\ui\widget.py:488 vnpy\trader\ui\widget.py:595
 msgid "来源"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:487 vnpy\trader\ui\widget.py:765
-msgid "类型"
+#: vnpy\trader\ui\widget.py:491
+msgid "商品名稱"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:491
+#: vnpy\trader\ui\widget.py:495 vnpy\trader\ui\widget.py:813
+msgid "單別"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:497
 msgid "总数量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:492
+#: vnpy\trader\ui\widget.py:498
 msgid "已成交"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:493 vnpy\trader\ui\widget.py:576
+#: vnpy\trader\ui\widget.py:499 vnpy\trader\ui\widget.py:604
 msgid "状态"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:504
+#: vnpy\trader\ui\widget.py:500
+msgid "訊息"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:501
+msgid "ReqID"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:502
+msgid "送出時間"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:513
 msgid "双击单元格撤单"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:530
+#: vnpy\trader\ui\widget.py:540
+msgid "offset"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:543
 msgid "昨仓"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:531 vnpy\trader\ui\widget.py:550
+#: vnpy\trader\ui\widget.py:544 vnpy\trader\ui\widget.py:578
 msgid "冻结"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:532
+#: vnpy\trader\ui\widget.py:545
 msgid "均价"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:533
+#: vnpy\trader\ui\widget.py:546
 msgid "盈亏"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:548
+#: vnpy\trader\ui\widget.py:576
 msgid "账号"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:549
+#: vnpy\trader\ui\widget.py:577
 msgid "余额"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:551
+#: vnpy\trader\ui\widget.py:579
 msgid "可用"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:566
+#: vnpy\trader\ui\widget.py:594
 msgid "报价号"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:570
+#: vnpy\trader\ui\widget.py:598
 msgid "买开平"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:571
+#: vnpy\trader\ui\widget.py:599
 msgid "买量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:572
+#: vnpy\trader\ui\widget.py:600
 msgid "买价"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:573
+#: vnpy\trader\ui\widget.py:601
 msgid "卖价"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:574
+#: vnpy\trader\ui\widget.py:602
 msgid "卖量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:575
+#: vnpy\trader\ui\widget.py:603
 msgid "卖开平"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:587
+#: vnpy\trader\ui\widget.py:615
 msgid "双击单元格撤销报价"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:651
-msgid "密码"
-msgstr ""
-
-#: vnpy\trader\ui\widget.py:661
+#: vnpy\trader\ui\widget.py:694
 msgid "连接"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:751
-msgid "设置价格随行情更新"
+#: vnpy\trader\ui\widget.py:753
+msgid "不必選擇，根據商品代碼會自動切換"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:756
+#: vnpy\trader\ui\widget.py:757
+msgid "商品代碼"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:761
+msgid "不必自行輸入，根據商品代碼自動設定"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:766
+msgid "多(買) 或 空(賣)"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:770
+msgid "💢股票類:不需要選擇、期權類:只支援Open(建倉)、Close(平倉)"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:774
+msgid "請依據商品類型來選擇"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:779
+msgid "委託單的價格類型"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:786 vnpy\trader\ui\widget.py:790
+msgid "請輸入浮點數"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:796
+msgid "勾選讓價格随行情收盤價自動更新"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:800
+msgid "送出委託單"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:802
 msgid "全撤"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:983
+#: vnpy\trader\ui\widget.py:804
+msgid "刪除所有委託單"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:1172
 msgid "请输入合约代码"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:983 vnpy\trader\ui\widget.py:988
+#: vnpy\trader\ui\widget.py:1172 vnpy\trader\ui\widget.py:1177
+#: vnpy\trader\ui\widget.py:1187 vnpy\trader\ui\widget.py:1191
 msgid "委托失败"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:988
+#: vnpy\trader\ui\widget.py:1177
 msgid "请输入委托数量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1080
+#: vnpy\trader\ui\widget.py:1316
 msgid "本地代码"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1084
+#: vnpy\trader\ui\widget.py:1320
 msgid "合约分类"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1085
+#: vnpy\trader\ui\widget.py:1321
 msgid "合约乘数"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1086
+#: vnpy\trader\ui\widget.py:1322
 msgid "价格跳动"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1087
+#: vnpy\trader\ui\widget.py:1323
 msgid "最小委托量"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1088
+#: vnpy\trader\ui\widget.py:1324
 msgid "期权产品"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1089
+#: vnpy\trader\ui\widget.py:1325
 msgid "期权到期日"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1090
+#: vnpy\trader\ui\widget.py:1326
 msgid "期权行权价"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1091
+#: vnpy\trader\ui\widget.py:1327
 msgid "期权类型"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1092
+#: vnpy\trader\ui\widget.py:1328
+msgid "原始保證金"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:1329
+msgid "維持保證金"
+msgstr ""
+
+#: vnpy\trader\ui\widget.py:1330
 msgid "交易接口"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1105
+#: vnpy\trader\ui\widget.py:1343
 msgid "合约查询"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1109
+#: vnpy\trader\ui\widget.py:1347
 msgid "输入合约代码或者交易所，留空则查询所有合约"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1111
+#: vnpy\trader\ui\widget.py:1349
 msgid "查询"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1188
+#: vnpy\trader\ui\widget.py:1507
 msgid "关于VeighNa Trader"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1234
+#: vnpy\trader\ui\widget.py:1553
 msgid "全局配置"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1250
+#: vnpy\trader\ui\widget.py:1569
 msgid "确定"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1286
+#: vnpy\trader\ui\widget.py:1605
 msgid "注意"
 msgstr ""
 
-#: vnpy\trader\ui\widget.py:1287
+#: vnpy\trader\ui\widget.py:1606
 msgid "全局配置的修改需要重启后才会生效！"
 msgstr ""
 

@@ -223,3 +223,6 @@ sinopac_setting.json
 .vntrader/contracts/*.pkl
 .vntrader/*.csv
 
+# sqlite資料庫
+*.db
+

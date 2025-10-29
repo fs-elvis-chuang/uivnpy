@@ -1,1 +1,11 @@
-{}
+{
+    "dual_ma_1234": {
+        "class_name": "DoubleMaStrategy",
+        "vt_symbol": "1234",
+        "setting": {
+            "class_name": "DoubleMaStrategy",
+            "fast_window": 10,
+            "slow_window": 20
+        }
+    }
+}
